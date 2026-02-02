@@ -12,11 +12,11 @@ This repo contains the code used for Project Skyhaul, a backend project built to
 1. Run setupdb.py to create "telemetry" table. Change username and password to desired.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/create_database.png)
 2. Open up 2 terminals
+3. First terminal is for commandMain.py. Run "uvicorn app.commandMain:app --reload". This listens for API requests sent to the command centre and responds accordingly.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/command_running.png)
-4. First terminal is for commandMain.py. Run "uvicorn app.commandMain:app --reload". This listens for API requests sent to the command centre and responds accordingly.
+4. Second terminal is for droneMain.py. Run " uvicorn app.droneMain:app --reload --port 8001". This listens for API requests sent to the drone and responds accordingly.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/drone_running.png)
-5. Second terminal is for droneMain.py. Run " uvicorn app.droneMain:app --reload --port 8001". This listens for API requests sent to the drone and responds accordingly.
-6. Note that drone will immediately start delivery upon running the above.
+5. Note that drone will immediately start delivery upon running the above.
    
 
    
