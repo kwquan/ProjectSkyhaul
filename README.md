@@ -58,8 +58,25 @@ IF retire: \
 
 
 
+# Steps[In VSCode] [SUBOPTIMAL, SIGNALLOSS]
+To simulate suboptimal and signalloss events, change the prob threshold in introSuboptimal function. \
+The lower it is, lower chance of telemetry data being sent from drone to command.
+![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/change_suboptimal.png)
 
-# Steps 
+When SIGNALLOSS occurs, 2 scenarios can occur: \
+Scenario 1: command requests telemetry data from drone, drone RESPONDS \
+In this scenario, command prints "drone 1 connection reestablished!" message. \
+Delivery continues 
+![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/retry_command.png)
+
+Scenario 2: command requests telemetry data from drone, drone DOES NOT RESPOND \
+In this scenario, 
+drone force exits program to simulate crash with printed message "drone crashed"
+![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/crash_drone.png)
+command prints "SIGNALLOSS: NOTIFY RECOVERY TEAM" message. 
+![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/crash_command.png)
+
+
    
    
 
