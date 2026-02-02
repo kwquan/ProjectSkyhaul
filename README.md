@@ -4,7 +4,7 @@
 This repo contains the code used for Project Skyhaul, a backend project built to simulate a autonomous delivery drone and it's interactions with a command centre.
 
 # Prerequisites
-1. Copy paste all files in app folder to desired directory
+1. Copy paste app folder to desired directory
 2. pip install dependencies in requirements.txt to virtual environment
 3. Postgresql installed with server "postgreSQL 18"
 
