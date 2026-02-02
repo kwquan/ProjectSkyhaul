@@ -39,7 +39,7 @@ a command requesting telemetry data to drone[up to 3 times] before notifying rec
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/query_1.png)
 6. Upon reaching destination, command can either refuel drone(refer to steps 7x) or retire drone(refer to steps 8x)
 
-IF refuel:
+IF refuel: \
 7a. In command terminal, enter 'refuel' when prompted
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/select_refuel_command.png)
 7b. Observe that drone starts it's next delivery
@@ -47,7 +47,7 @@ IF refuel:
 7c. Verify that next delivery's data is sent to telemetry table
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/query_2.png)
 
-IF retire:
+IF retire: \
 8a. In command terminal, enter 'retire' when prompted
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/select_retire_command.png)
 8b. Observe that drone shuts down
