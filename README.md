@@ -7,9 +7,9 @@ This repo contains the code used for Project Skyhaul, a backend project built to
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/gridworld.png)
 
 Drone alternates delivery between points A and B in a 8x8 gridworld. Drone starts with state "LOADING" follows transition below:
-// "LOADING" > "LIFTOFF" > "DELIVERY".
+"LOADING" > "LIFTOFF" > "DELIVERY". \
 Upon reaching destination grid, it follows the transition below:
-// "LANDING" > "UNLOADING" > "UNLOADED"
+"LANDING" > "UNLOADING" > "UNLOADED" \
 
 # Prerequisites
 1. Copy paste app folder to desired directory
