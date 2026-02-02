@@ -17,10 +17,13 @@ Once destination is reached, command can either:
 
 ## Notes
 
+Drone delivery code runs on a separate thread from it's API endpoints \
+Command monitoring code[used to monitor status every second] runs on a separate thread from it's API endpoints
+
 Drone starts sending telemetry every second when it starts delivering. \
 However, there is a chance this DOES NOT occur[to simulate real-life signal loss events]. \
 When command does not receive telemetry data[fulfilling certain conditions], it will send \
-a command requesting telemetry data to drone[up to 3 times] before notifying recovery team[assumes that drone has crashed]
+a command requesting telemetry data to drone[up to 3 times] before notifying recovery team[assumes that drone has crashed] \
 
 ## Prerequisites
 1. Copy paste app folder to desired directory
