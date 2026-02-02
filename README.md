@@ -79,6 +79,11 @@ drone force exits program to simulate crash with printed message "drone crashed"
 command prints "SIGNALLOSS: NOTIFY RECOVERY TEAM" message. 
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/crash_command.png)
 
+## Future improvements
+Refer to optional part in flowchart. \
+All comments for improvements are welcomed. \
+All mistakes are solely my own. 
+
 
    
    
