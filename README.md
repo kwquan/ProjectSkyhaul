@@ -13,7 +13,7 @@ Upon reaching destination grid, it follows the transition below: \
 "LANDING" > "UNLOADING" > "UNLOADED" \
 Once destination is reached, command can either: 
 1) refuel drone: upon which drone continues it's next delivery 
-2) retire drone: upon which drone is shutdown and awaits commmand to restart
+2) retire drone: upon which drone is shutdown and awaits command to restart
 
 # Notes
 
