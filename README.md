@@ -82,7 +82,8 @@ command prints "SIGNALLOSS: NOTIFY RECOVERY TEAM" message.
 ## Future improvements
 Refer to optional part in flowchart. \
 All comments for improvements are welcomed. \
-All mistakes are solely my own. 
+This is my first backend project, with over 20h spent on it. \
+Much remains to be learnt, all mistakes are solely my own. 
 
 
    
