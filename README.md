@@ -18,7 +18,7 @@ Once destination is reached, command can either:
 # Notes
 
 Drone starts sending telemetry every second when it starts delivering. \
-However, there is a chance this DOES NOT occur[to simulate real-life signal loss events. \
+However, there is a chance this DOES NOT occur[to simulate real-life signal loss events]. \
 When command does not receive telemetry data[fulfilling certain conditions], it will send \
 a command requesting telemetry data to drone[up to 3 times] before notifying recovery team[assumes that drone has crashed]
 
