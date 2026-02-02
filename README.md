@@ -9,6 +9,7 @@ This repo contains the code used for Project Skyhaul, a backend project built to
 3. Postgresql installed with server "postgreSQL 18"
 
 # Steps[In VSCode] 
+![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/create_database.png)
 1. Run setupdb.py to create "telemetry" table. Change username and password to desired.
 2. Open up 2 terminals
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/command_running.png)
