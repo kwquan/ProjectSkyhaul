@@ -16,7 +16,9 @@ This repo contains the code used for Project Skyhaul, a backend project built to
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/command_running.png)
 4. Second terminal is for droneMain.py. Run " uvicorn app.droneMain:app --reload --port 8001". This listens for API requests sent to the drone and responds accordingly.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/drone_running.png)
-5. Note that drone will immediately start delivery upon running the above.
+5. Note that drone will immediately start delivery upon running the above. Query telemetry table to verify that data has been sent from drone to command.
+![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/query_1.png)
+   
    
 
    
