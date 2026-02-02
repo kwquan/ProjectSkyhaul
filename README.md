@@ -3,7 +3,7 @@
 
 This repo contains the code used for Project Skyhaul, a backend project built to simulate a autonomous delivery drone and it's interactions with a command centre.
 
-# Description
+## Description
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/gridworld.png)
 
 Drone alternates delivery between points A and B in a 8x8 gridworld. \
@@ -15,19 +15,19 @@ Once destination is reached, command can either:
 1) refuel drone: upon which drone continues it's next delivery 
 2) retire drone: upon which drone is shutdown and awaits command to restart
 
-# Notes
+## Notes
 
 Drone starts sending telemetry every second when it starts delivering. \
 However, there is a chance this DOES NOT occur[to simulate real-life signal loss events]. \
 When command does not receive telemetry data[fulfilling certain conditions], it will send \
 a command requesting telemetry data to drone[up to 3 times] before notifying recovery team[assumes that drone has crashed]
 
-# Prerequisites
+## Prerequisites
 1. Copy paste app folder to desired directory
 2. pip install dependencies in requirements.txt to virtual environment
 3. Postgresql installed with server "postgreSQL 18"
 
-# Steps[In VSCode] [delivery]
+## Steps[In VSCode] [delivery]
 1. Run setupdb.py to create "telemetry" table. Change username and password to desired.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/create_database.png)
 2. Open up 2 terminals
@@ -58,7 +58,7 @@ IF retire: \
 
 
 
-# Steps[In VSCode] [SUBOPTIMAL, SIGNALLOSS]
+## Steps[In VSCode] [SUBOPTIMAL, SIGNALLOSS]
 To simulate suboptimal and signalloss events, change the prob threshold in introSuboptimal function. \
 The lower it is, lower chance of telemetry data being sent from drone to command.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/change_suboptimal.png)
