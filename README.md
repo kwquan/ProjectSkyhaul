@@ -52,7 +52,7 @@ IF retire: \
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/select_retire_command.png)
 8b. Observe that drone shuts down
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/select_retire_drone.png)
-8c. For next prompt in command terminal, if 'y' is entered, drone restarts and starts new delivery
+8c. For next prompt in command terminal, if 'y' is entered, drone restarts and starts new delivery.
 8d. Verify that next delivery's data is sent to telemetry table. Note the SHUTDOWN state of drone prior to restarting.
 ![alt text](https://github.com/kwquan/ProjectSkyhaul/blob/main/images/query_3.png)
 
